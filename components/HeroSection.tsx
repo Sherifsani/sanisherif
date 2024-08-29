@@ -9,12 +9,12 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section className="p-5 pt-8 flex flex-col md:flex-row items-end overflow-hidden gap-10 lg:h-[90vh]">
+    <section className=" p-5 pt-8 flex flex-col md:flex-row items-end overflow-hidden gap-10 lg:h-[90vh] mx-auto w-full max-w-screen-xl">
       <motion.div
         initial="hidden"
         animate="visible"
         transition={{ staggerChildren: 0.2 }} // Delay between each child's animation
-        className="hero-texts flex flex-col gap-6 items-start md:w-1/2"
+        className="hero-texts flex flex-col gap-6 items-start md:w-1/2 lg:self-center"
       >
         <motion.p
           variants={{
