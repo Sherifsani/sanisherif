@@ -1,10 +1,14 @@
-import React from "react";
 import Tag from "./reusables/Tag";
 
+
 const Info = () => {
+
   return (
-    <section>
-      <div className="bg-bodyBackground py-portraitSection px-6">
+    <section className="">
+      <div
+        className="bg-bodyBackground py-portraitSection px-6"
+        
+      >
         <div className="text-sect flex flex-col gap-5 md:flex-row">
           <div className="head md:w-1/2">
             <h2 className="text-2xl text-black font-[500] md:text-4xl">
