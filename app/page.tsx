@@ -3,6 +3,8 @@ import Image from "next/image";
 import Info from "@/components/Info";
 import HeroSection from "@/components/HeroSection";
 import MyWorks from "@/components/MyWorks";
+import SignOff from "@/components/SignOff";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       <HeroSection />
       <Info />
       <MyWorks />
+      <Testimonials />
+      <SignOff />
     </main>
   );
 }

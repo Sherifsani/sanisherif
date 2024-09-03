@@ -28,12 +28,67 @@
   line-height: 150%;
 }
 
-.project-card img {
+.project-card img,
+.project-card .img-part {
   transition: all .3s ease-in-out;
 }
 
-.project-card:hover img {
-  transform: scale(1.05);
+.project-card:hover .img-part {
+  padding: 3px 3px 0px 3px;
+}
+
+.custom-prev,
+.custom-next {
+  background-color: #fff;
+  color: #222;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-prev {
+  left: 10px;
+}
+
+.custom-next {
+  right: 10px;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+  background-color: #333;
+}
+
+.swiper-button-next {
+  background-image: url('../public/assets/bx-right-arrow-alt.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  opacity: 0.5;
+}
+
+.swiper-button-prev {
+  background-image: url('../public/assets/bx-left-arrow-alt.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  opacity: 0.5;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  opacity: 1;
 }
 
 @keyframes myAnim {

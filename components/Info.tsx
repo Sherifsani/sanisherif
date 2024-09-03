@@ -5,13 +5,10 @@ const Info = () => {
 
   return (
     <section className="">
-      <div
-        className="bg-bodyBackground py-portraitSection px-6"
-        
-      >
-        <div className="text-sect flex flex-col gap-5 md:flex-row">
+      <div className="bg-bodyBackground py-portraitSection px-6 ">
+        <div className="text-sect flex flex-col gap-5 md:flex-row mx-auto max-w-screen-xl">
           <div className="head md:w-1/2">
-            <h2 className="text-2xl text-black font-[500] md:text-4xl">
+            <h2 className="text-2xl text-black font-[500] md:text-4xl lg:text-5xl">
               I bring a meticulous attention to detail and a passion for
               continuous learning.
             </h2>

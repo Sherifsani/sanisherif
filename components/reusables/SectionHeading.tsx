@@ -15,7 +15,9 @@ const SectionHeading = ({
   return (
     <div className="flex flex-col gap-2">
       <Tag text={tagText} styles={tagStyle} />
-      <h2 className={`text-black text-3xl font-[500]`}>{titleText}</h2>
+      <h2 className={`text-black text-3xl font-[500] md:text-4xl`}>
+        {titleText}
+      </h2>
     </div>
   );
 };
