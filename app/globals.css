@@ -91,6 +91,11 @@
   opacity: 1;
 }
 
+.cta p {
+  display: flex;
+  align-items: center;
+}
+
 @keyframes myAnim {
   0% {
     opacity: 0.8;
