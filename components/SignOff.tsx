@@ -35,7 +35,11 @@ const SignOff = () => {
         </motion.a>
 
         {/* Animated Signature Image */}
-        <motion.img src="/assets/signature.png" alt="signature" />
+        <motion.img
+          src="/assets/signature.png"
+          alt="signature"
+          className="w-[150px]"
+        />
       </div>
     </section>
   );
